@@ -37,4 +37,6 @@ LOCAL_C_INCLUDES += \
 
 LOCAL_MODULE:= libcamera_client
 
+LOCAL_CFLAGS += -fno-strict-aliasing
+
 include $(BUILD_SHARED_LIBRARY)
